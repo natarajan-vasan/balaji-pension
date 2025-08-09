@@ -24,9 +24,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <header style={{ background: '#333', color: '#fff', padding: '1rem' }}>
+        My Navbar
+      </header> */}
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
+       <footer style={{ background: '#333', color: '#fff', padding: '1rem' }}>
+        My Footer
+      </footer>
     </html>
   );
 }
